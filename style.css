@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -126,15 +126,15 @@ body {
 }
 
 .links {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.links a{
-    margin: 10px 0;
-    font-size: 0.75em;
-    color: #8f8f8f;
-    text-decoration: none;
+.links a {
+  margin: 10px 0;
+  font-size: 0.75em;
+  color: #8f8f8f;
+  text-decoration: none;
 }
 
 .links a:hover,
@@ -143,24 +143,24 @@ body {
 }
 
 input[type="submit"] {
-    border: 1px solid #45f3ff;
-    outline: none;
-    background: transparent;
-    color: #fff;
-    padding:  11px 25px;
-    width: 100px;
-    margin-top: 10px;
-    border-radius: 4px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all .3s ease;
+  border: 1px solid #45f3ff;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 11px 25px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-input[type="submit"]:hover{
-    background: #45f3ff;
-    color: #23242a;
+input[type="submit"]:hover {
+  background: #45f3ff;
+  color: #23242a;
 }
 
-.input[type="submit"]:active{
-    opacity: 0.8;
+.input[type="submit"]:active {
+  opacity: 0.8;
 }
